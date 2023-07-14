@@ -3,3 +3,6 @@
 div{
     margin-left: 500px;
 }
+tr.main{background-color: aliceblue;}
+th>a :hover{color: rgb(51, 212, 59);}
+tr.main :hover{color: rgb(60, 233, 72);}
