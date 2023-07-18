@@ -1,8 +1,85 @@
-#para1 {text-align: left; color: rgb(238, 234, 234);}
-#para2 {text-align: right;color: rgb(238, 234, 234);}
-div{
-    margin-left: 500px;
+#para1 {
+    text-align: left;
+    color: white;
+    text-align: justify;
 }
-tr.main{background-color: aliceblue;}
-th>a :hover{color: rgb(51, 212, 59);}
-tr.main :hover{color: rgb(60, 233, 72);}
+
+#para2 {
+    text-align: right;
+    color: rgb(238, 234, 234);
+    text-align: justify;
+}
+
+div {
+    margin-left: 50px;
+}
+
+table {
+    background-color: rgb(170, 189, 189);
+    width: 100%;
+    height: 50px;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+tr.main :hover {
+    color: rgb(60, 233, 72);
+    background-color: rgb(95, 101, 99);
+}
+
+th.main {
+    border: 1px;
+    border-color: black;
+    width: 100%;
+    border-style: solid;
+}
+th{
+    font-size: 50px;
+}
+td{height: 400px;}
+h1#mname{  font-size: 150px;
+    color: rgb(197, 227, 203);
+    text-decoration: underline;
+} 
+.mh{
+    background: url(./images/fast\ hd.jpg);
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+img.fi{
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+    transition: all ease 1s;
+}
+.fi:hover{scale: 1.1;}
+table#kl{background-color: transparent;
+border: none;}
+div#cont{
+    font-size: larger;
+}
+h1 #main{
+    color: black;
+}
+img.mi{
+    height: 185px;
+    width: 185px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+img.mi:hover{scale: 1.2;}
+td{
+    text-align: center;
+}
+p{
+    font-size: 32px;
+}
+img.pi{
+    height: 100px;
+    width: 100px;
+}
+html{scroll-behavior: smooth;}
+.fd:hover{color: rgb(71, 219, 98);}
